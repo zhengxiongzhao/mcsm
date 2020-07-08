@@ -8,8 +8,13 @@
 
 - master			# README
 - mcsm				# 主分支
-- mcsm-template		# 扩展库模版
-- mcsm-*			# 扩张分支
+- mcsm-template		# 工具包模版
+- mcsm-msutil		# Office工具包
+- mcsm-scheduler	# Scheduler 工具包
+- mcsm-database		# Database 工具包
+- mcsm-mq			# Message 工具包
+- mcsm-mail			# Mail 工具包
+- mcsm-*			# XX 工具包
 
 ### mcsm-config ( 配置包 )
 
