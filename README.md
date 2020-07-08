@@ -4,6 +4,10 @@
 
 管理系统集成? 分发库?
 
+## 参考标准
+
+[12factor](https://12factor.net/zh_cn/)
+
 ## Git Branch
 
 - master			# README
@@ -14,6 +18,7 @@
 - mcsm-database		# Database 工具包
 - mcsm-mq			# Message 工具包
 - mcsm-mail			# Mail 工具包
+- mcsm-flow			# 流程引擎工具包
 - mcsm-*			# XX 工具包
 
 ### mcsm-config ( 配置包 )
@@ -30,4 +35,23 @@
 - ini		# 主要因为基础库
 - yml		# 可读性
 - json		# 暂时不考虑
+
+设想
+
+```
+app
+	config
+		default.yml
+		testing.yml
+		development.yml
+		production.yml
+
+		redis.yml
+		database.yml
+	setting.cfg
+		CONFIG=default.yml
+	main.py
+		from mscm_config import config
+		config.read()
+```
 
