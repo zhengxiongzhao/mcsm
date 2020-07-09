@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements/prod.txt
+graft mcsm-template
+recursive-exclude * *.py[co]
+include versioneer.py
+include src/mcsm-template/__version__.py
