@@ -8,7 +8,7 @@ with open("LICENSE", "r") as fh:
     license = fh.read()
 
 setuptools.setup(
-    name="mcsm-template",
+    name="mcsm_template",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     author="ZhengXiong Zhao",
@@ -16,7 +16,7 @@ setuptools.setup(
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/mcsm-template",
+    url="https://github.com/pypa/mcsm_template",
     license=license,
     platforms='any',
     packages=setuptools.find_packages(),
