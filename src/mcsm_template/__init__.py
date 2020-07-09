@@ -8,3 +8,4 @@ def is_number(in_value):
         return True
     except ValueError:
         return False
+
