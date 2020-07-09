@@ -1,5 +1,7 @@
 include README.md
 include LICENSE
 include requirements/*.txt
+graft mcsm_template
 recursive-exclude * *.py[co]
+recursive-exclude * __pycache__
 include versioneer.py
