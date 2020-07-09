@@ -1,4 +1,6 @@
-
+from ._version import get_versions
+__version__ = get_versions()['version']
+del get_versions
 
 def is_number(in_value):
     try:
@@ -7,6 +9,5 @@ def is_number(in_value):
     except ValueError:
         return False
 
-from ._version import get_versions
-__version__ = get_versions()['version']
-del get_versions
+
+

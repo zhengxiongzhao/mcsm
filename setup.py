@@ -1,4 +1,5 @@
 import setuptools
+import versioneer
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -8,7 +9,8 @@ with open("LICENSE", "r") as fh:
 
 setuptools.setup(
     name="mcsm-template",
-    version="0.0.1",
+    version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
     author="ZhengXiong Zhao",
     author_email="zhengxiongzhao@gmail.com",
     description="A small example package",

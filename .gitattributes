@@ -1,1 +1,3 @@
 src/mcsm-template/__version__.py export-subst
+src/mcsm_template/__version__.py export-subst
+src/mcsm_template/_version.py export-subst
