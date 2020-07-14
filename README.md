@@ -55,3 +55,29 @@ app
 		config.read()
 ```
 
+#### mcsm-rdp
+
+rdp ssh_config 配置
+
+### mcsm-logger
+
+基础日志信息
+
+- 邮件底层日志信息
+
+### mcsm-scheduler
+
+- mq scheduler
+- simple scheduler 
+  pip install schedule
+
+- 系统服务
+
+  https://blog.csdn.net/abchhcba2014/article/details/102030628
+  https://www.cnblogs.com/zhaoweihang/p/12102386.html
+  https://www.jianshu.com/p/7661b0ee01fd
+
+### mcsm-msutils
+
+- JPype, linux crontab 不生效， 必须使用自己的scheduler
+
